@@ -1,0 +1,31 @@
+.max-w-80 {
+  max-width: 80%;
+  margin: auto;
+}
+.w-40 {
+  width: 40%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.fs-0-7 {
+  font-size: 0.7rem;
+}
+.end-28 {
+  right: 28%;
+}
+
+.rotate-15 {
+  rotate: 15deg;
+}
+
+.my-8 {
+  margin-top: 8rem;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
