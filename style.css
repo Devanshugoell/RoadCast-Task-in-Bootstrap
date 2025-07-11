@@ -21,7 +21,7 @@
   rotate: 15deg;
 }
 
-.my-8 {
+.mt-8 {
   margin-top: 8rem;
 }
 
@@ -31,4 +31,10 @@
 }
 .bg-F1F3FD {
   background: #f1f3fd;
+}
+.bg-050038 {
+  background: #050038;
+}
+.max-w-fit {
+  max-width: fit-content;
 }
