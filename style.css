@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .max-w-80 {
   max-width: 80%;
   margin: auto;
 }
+
 .w-40 {
   width: 40%;
 }
@@ -13,6 +19,7 @@
 .fs-0-7 {
   font-size: 0.7rem;
 }
+
 .end-28 {
   right: 28%;
 }
@@ -29,15 +36,30 @@
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+
 .bg-F1F3FD {
   background: #f1f3fd;
 }
+
 .bg-050038 {
   background: #050038;
 }
+
 .max-w-fit {
   max-width: fit-content;
 }
+
 .lh-0-75 {
   line-height: 0.75 !important;
+}
+
+.max-w-82 {
+  max-width: 82%;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .w-30 {
+    width: 80%;
+  }
 }
