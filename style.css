@@ -62,4 +62,17 @@ body {
   .w-30 {
     width: 80%;
   }
+
+  .w-40 {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-container {
+    width: auto !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
