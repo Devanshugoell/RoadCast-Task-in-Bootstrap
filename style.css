@@ -38,3 +38,6 @@
 .max-w-fit {
   max-width: fit-content;
 }
+.lh-0-75 {
+  line-height: 0.75 !important;
+}
