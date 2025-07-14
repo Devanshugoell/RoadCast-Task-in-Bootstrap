@@ -28,3 +28,22 @@ const handleSignUp = () => {
     alert("Please enter a valid email address.");
   }
 };
+
+const ChangeContent = (dropDown, dropDownItem) => {
+  document.querySelectorAll(dropDown).forEach((item) => {
+    item.addEventListener("click", function () {
+      const dropdownToggle = document.getElementById(dropDownItem);
+      dropdownToggle.textContent = this.textContent;
+    });
+  });
+};
+
+function changeHtmlFile(content) {
+  if (content === "Products") {
+    ChangeContent(".Products", "ProductDropdown");
+  } else if (content === "Solutions") {
+    ChangeContent(".Solutions", "solutionsDropdown");
+  } else if (content === "Resources") {
+    ChangeContent(".Resources", "ResourcesDropdown");
+  }
+}
